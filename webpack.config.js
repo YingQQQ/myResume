@@ -9,7 +9,7 @@ const TARGET = process.env.npm_lifecycle_event
 const development = TARGET === 'start';
 
 const app = resolve(__dirname, 'src/index.js');
-const build = resolve(__dirname, 'dist');
+const build = resolve(__dirname, 'docs');
 
 const pkg = require('./package.json');
 
