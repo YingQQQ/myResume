@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../css/images/photo.jpg';
+import photo from '../css/images/photo.png';
 
 export default() => (
   <section id="about">

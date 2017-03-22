@@ -8,6 +8,7 @@ h1,
 p,
 ul {
     margin: 0;
+    padding: 0;
 }
 li{
   list-style: none;
@@ -33,7 +34,8 @@ header {
     nav {
         display: flex;
         justify-content: center;
-
+        z-index: 1000;
+        width: 100%;
         a {
             display: inline-flex;
             box-shadow: 0 0 1px transparent;
@@ -59,7 +61,7 @@ header {
         display: flex;
         justify-content: center;
         position: relative;
-        top: 5rem;
+        top: 9rem;
         width: 85%;
         margin: auto;
         padding: {
@@ -164,7 +166,7 @@ header {
 /**
  * Skill component
  */
-#work-skill {
+#skill {
     position: relative;
     color: rgba(0, 0, 0, .8);
     padding: {
@@ -181,7 +183,6 @@ header {
     margin: 0 auto;
 
     ul {
-        padding: 0;
         padding-left: 1rem;
         margin-top: 2rem;
     }
@@ -343,17 +344,30 @@ header {
     .skill-first {
         width: 55%;
     }
-
+    @keyframes javascript{
+      0%   { width: 0px;  }
+      100% { width: 55%;  }
+    }
     .skill-second {
         width: 60%;
     }
-
+    @keyframes css{
+      0%   { width: 0px;  }
+      100% { width: 60%;  }
+    }
     .skill-third {
         width: 70%;
     }
-
+    @keyframes html5{
+      0%   { width: 0px;  }
+      100% { width: 70%;  }
+    }
     .skill-fourth {
         width: 65%;
+    }
+    @keyframes jquery{
+      0%   { width: 0px;  }
+      100% { width: 65%;  }
     }
 }
 /**
@@ -452,6 +466,38 @@ header {
     h1{
       letter-spacing: .5rem;
       font-size: 3rem;
+    }
+    ul{
+      position: relative;
+      display: flex;
+      padding-top: 6rem;
+    }
+    li{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 1rem;
+      width: 30%;
+    }
+    p{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+    }
+    .dome-logo{
+      position: relative;
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .logo_1{
+      background: url("./images/rewrite.png") no-repeat center;
+    }
+    .logo_2{
+      background: url("./images/movie.png") no-repeat center;
+    }
+    .logo_3{
+      background: url("./images/blog.jpg") no-repeat center;
     }
   }
 }
