@@ -21,7 +21,7 @@ export default() => (
         我喜欢研究所碰到的各种技术，不给自己设边界，有 Geek 精神。<br />
         我有时间概念，能在约定时间内保证完成任务。
         </p>
-        <p>半年前端开发经验，熟悉 HTML、CSS、Javascript，能熟练开发符合
+        <p>一年前端开发经验，熟悉 HTML、CSS、Javascript，能熟练开发符合
           W3C 标准的页面，以及面向对象的设计模式。熟练使用jQuery、zepto 框架，阅读过 jQuery、zepto源码,
           也写过jQuery插件</p>
         <p>对服务器端开发有一定了解，能够配合程序员完成相关工作</p>
